@@ -1,5 +1,5 @@
 // const esprima = require('esprima');
-import esprima from 'esprima';
+// import esprima from 'esprima';
 // const $ = require('jquery');
 // console.log($.toString());
 // import $ from 'jquery';
@@ -22,6 +22,6 @@ import esprima from 'esprima';
 
 // import $ from 'jquery';
 // console.log('$', $)
-// import { add } from 'my-first-npm-chuanshuo';
-// let a: number = add(2,2);
-// console.log('a', a);
+import { add } from 'my-first-npm-chuanshuo';
+let a: number = add(2,2);
+console.log('a', a);
